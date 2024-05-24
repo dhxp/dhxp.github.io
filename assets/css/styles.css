@@ -1296,4 +1296,10 @@ img {
     margin-top: 4.5rem;
   }
 
+/*Step Up */
+.stepup_container { 
+  column-gap: 8px;
+}
+
+
 }
