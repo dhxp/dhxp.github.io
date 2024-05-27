@@ -1297,13 +1297,21 @@ img {
   }
 
 
-  .stepup_img{
-  justify-self: right;
-  align-content: right;
+  .steup__img {
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
   }
 
   .stepup__description {
     text-align: center;
     margin-bottom: var(--mb-2-5);
+  }
+
+  .project__title {
+    font-size: var(--h1-font-size);
+    /* color: var(--title-color); */
+    text-align: center;
   }
 }
