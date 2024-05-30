@@ -1314,4 +1314,12 @@ img {
     /* color: var(--title-color); */
     text-align: center;
   }
+
+  .figma_img {
+    width: 50px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+  }
+
 }
