@@ -1217,6 +1217,11 @@ img {
     justify-content: initial;
   }
 
+  .pdf__buttons {
+    justify-content: center;
+    align-content: center;
+  }
+
   .qualification__tabs {
     justify-content: center;
   }
@@ -1436,6 +1441,24 @@ body {
   
   float: left;
   width: 20%;
+}
+
+.rows {
+  margin: 8px -16px;
+}
+
+
+/* Create four equal columns that floats next to each other */
+.columns {
+  
+  float: center;
+  width: 10%;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.rows,
+.rows > .columns {
+  padding: 20px;
 }
 
 /* Clear floats after rows */
